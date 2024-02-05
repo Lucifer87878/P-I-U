@@ -1,0 +1,38 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anteckningsapp</title>
+  <link rel="stylesheet" href="/src/styles/main.scss">
+</head>
+<body>
+  <header>
+  <h1>Anteckningsapp</h1>
+  </header>
+
+  <label for="username">Ange ditt användarnamn:</label>
+  <input class="username-1" type="text" id="username" />
+
+  <button id="getNotes">Hämta anteckningar</button>
+
+  <div id="noteList"></div>
+
+  <h2 id="Titel2">Skapa en ny anteckning</h2>
+  <label for="title">Titel:</label>
+  <input class="title-1" type="text" id="title" />
+  <br />
+
+  <section id="note.id" class="anteckningar1">
+  <label for="note">Anteckning:</label>
+  <textarea class="ANT-F-Box" id="note"></textarea>
+  <br />
+  </section>
+
+  <button id="createNote">Skapa anteckning</button>
+
+  <script type="module" src="/src/app.ts"></script>
+</body>
+</html>
